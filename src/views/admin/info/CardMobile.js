@@ -42,7 +42,7 @@ const CardMobile = ({ programador }) => {
       <Grid container spacing={6}>
         <StyledGrid item md={5} xs={12}>
           <CardContent sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <img width={137} height={176} alt='Apple iPhone 11 Pro' src={programador?.fotoUrl} />
+            <img width={100} height={100} alt='Avatars' src={programador?.fotoUrl} />
           </CardContent>
         </StyledGrid>
         <Grid

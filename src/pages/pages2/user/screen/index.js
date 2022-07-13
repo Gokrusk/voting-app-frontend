@@ -32,6 +32,8 @@ import BlankLayout from 'src/@core/layouts/BlankLayout'
 
 // ** Demo Imports
 import FooterIllustrationsV1 from 'src/views/pages/auth/FooterIllustration'
+import Link from 'next/link'
+import { logout } from 'src/services/user.service'
 
 // ** Styled Components
 const Card = styled(MuiCard)(({ theme }) => ({
@@ -79,7 +81,11 @@ const LoginPage = () => {
             VOTO REALIZADO
           </Typography>
         </BoxWrapper>
-        
+        <Link passHref href='/'>
+          <Button component='a' variant='contained' sx={{ px: 5.5 }} onClick={() => logout()}>
+            Salir
+          </Button>
+        </Link>
       </Box>
     </Box>
   )

@@ -12,13 +12,6 @@ import 'react-datepicker/dist/react-datepicker.css'
 
 import { eliminarLista, obtenerListas } from 'src/services/list.service'
 import { CircularProgress } from '@mui/material'
-import CardInfluencer from 'src/views/cards/CardInfluencer'
-import CardVerticalRatings from 'src/views/cards/CardVerticalRatings'
-import CardMembership from 'src/views/cards/CardMembership'
-import CardAppleWatch from 'src/views/cards/CardAppleWatch'
-import CardSupport from 'src/views/cards/CardSupport'
-import CardNavigation from 'src/views/cards/CardNavigation'
-import CardNavigationCenter from 'src/views/cards/CardNavigationCenter'
 
 const AdministrarListas = () => {
   const [listas, setListas] = useState([])

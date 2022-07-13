@@ -12,6 +12,7 @@ import BlankLayout from 'src/@core/layouts/BlankLayout'
 
 // ** Demo Imports
 import FooterIllustrations from 'src/views/pages/misc/FooterIllustrations'
+import { logout } from 'src/services/user.service'
 
 // ** Styled Components
 const BoxWrapper = styled(Box)(({ theme }) => ({
@@ -56,7 +57,7 @@ const Error500 = () => {
         </BoxWrapper>
         <Img height='487' alt='error-illustration' src='/images/pages/500.png' />
         <Link passHref href='/'>
-          <Button component='a' variant='contained' sx={{ px: 5.5 }}>
+          <Button component='a' variant='contained' sx={{ px: 5.5 }} onClick={() => logout()}>
             Back to Home
           </Button>
         </Link>
