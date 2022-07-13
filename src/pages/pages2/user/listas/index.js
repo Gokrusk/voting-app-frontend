@@ -23,7 +23,7 @@ const AdministrarListas = () => {
       })
   }, [])
 
-  const indice = 1
+  let indice = 1
 
   return (
     <>
@@ -35,7 +35,7 @@ const AdministrarListas = () => {
 
       <Grid container spacing={6}>
         {listas?.map(lista => (
-          <Grid key={indice + 1} item xs={12} sm={6} md={4}>
+          <Grid key={indice++} item xs={12} sm={6} md={4}>
             <CardLista lista={lista} />
           </Grid>
         ))}
