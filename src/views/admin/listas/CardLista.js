@@ -6,7 +6,6 @@ import Typography from '@mui/material/Typography'
 import CardContent from '@mui/material/CardContent'
 import Divider from '@mui/material/Divider'
 import { useRouter } from 'next/router'
-import Alert from '@mui/material/Alert'
 import Dialog from '@mui/material/Dialog'
 import { useState } from 'react'
 import DialogActions from '@mui/material/DialogActions'
@@ -31,7 +30,7 @@ const CardLista = ({ lista, handleDeleteLista, loading, setLoading }) => {
   return (
     <Card>
       {/* imagen de lista o integrantes*/}
-      <CardMedia sx={{ height: '9.375rem' }} image='/images/cards/watch-on-hand.jpg' />
+      <CardMedia sx={{ height: '9.375rem' }} image='/images/cards/avatar.jpg' />
       <CardContent sx={{ padding: theme => `${theme.spacing(2, 5.25, 4)} !important` }}>
         <Typography variant='h6' sx={{ marginBottom: 2 }}>
           Lista: {lista?.nombre.toUpperCase()}

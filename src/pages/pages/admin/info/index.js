@@ -14,13 +14,13 @@ const InfoPage = () => {
       nombre: 'NIGELL MARCEL JAMA OYARVIDE - 7046',
       email: 'nigell.jama@espoch.edu.ec',
       github: 'Gokrusk',
-      fotoUrl: 'https://img.icons8.com/ios/500/user--v1.png'
+      fotoUrl: 'https://img.icons8.com/ios/344/user-male-circle.png'
     },
     {
       nombre: 'FERNANDO SEBASTIAN GUERRA OCAÑA - 7106',
       email: 'fernando.guerra@espoch.edu.ec',
       github: '',
-      fotoUrl: 'https://cdn-icons-png.flaticon.com/512/17/17797.png'
+      fotoUrl: 'https://img.icons8.com/ios/344/user-male-circle.png'
     }
   ]
   let indice = 1

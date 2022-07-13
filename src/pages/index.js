@@ -122,6 +122,7 @@ const LoginPage = () => {
               onChange={handleChange('cedula')}
               label='Cédula'
               sx={{ marginBottom: 4 }}
+              inputProps={{ maxLength: 10 }}
             />
             <FormControl fullWidth>
               <InputLabel htmlFor='auth-login-password'>Contraseña</InputLabel>
