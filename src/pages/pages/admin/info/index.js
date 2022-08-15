@@ -23,7 +23,7 @@ const InfoPage = () => {
       fotoUrl: 'https://img.icons8.com/ios/344/user-male-circle.png'
     }
   ]
-  let indice = 1
+  let indice = 1;
 
   return (
     <>
