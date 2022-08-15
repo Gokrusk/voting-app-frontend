@@ -16,6 +16,7 @@ const FooterContent = () => {
             Nigell Jama
           </Link>
           {' '}y
+          {' '}
           <Link target='_blank' href='https://github.com/Ricardo-VP/'>
             Ricardo Vaca
           </Link>
