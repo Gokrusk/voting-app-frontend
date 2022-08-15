@@ -11,15 +11,15 @@ import 'react-datepicker/dist/react-datepicker.css'
 const InfoPage = () => {
   const programadores = [
     {
-      nombre: 'NIGELL MARCEL JAMA OYARVIDE - 7046',
-      email: 'nigell.jama@espoch.edu.ec',
+      nombre: 'NIGELL MARCEL JAMA OYARVIDE',
+      email: 'nigelljama@gmail.com',
       github: 'Gokrusk',
       fotoUrl: 'https://img.icons8.com/ios/344/user-male-circle.png'
     },
     {
-      nombre: 'FERNANDO SEBASTIAN GUERRA OCAÑA - 7106',
-      email: 'fernando.guerra@espoch.edu.ec',
-      github: '',
+      nombre: 'RICARDO ENRIQUE VACA PEÑA',
+      email: 'ricardovak22@gmail.com',
+      github: 'Ricardo-VP',
       fotoUrl: 'https://img.icons8.com/ios/344/user-male-circle.png'
     }
   ]
